@@ -167,8 +167,8 @@ section {
     right: 9%;
     pointer-events: none;
     border-radius: 8px;
-    max-width: 480px;
-    max-height: 100vh;
+    max-width: 580px;
+    max-height: 400px;
 }
 
 /* ++++++++++++++++++ Used in All Section Except Home Section ++++++++++++++++++ */
@@ -196,7 +196,7 @@ section {
 
 .about-img>img {
     width: 100%;
-    height: 464px;
+    height: 450px;
     border-radius: 8px;
 }
 
@@ -219,7 +219,7 @@ section {
 
 .tab-tittles {
     display: flex;
-    margin: 20px 0 40px 0;
+    margin: 8px 0 16px 0;
 }
 
 .tab-links {
@@ -250,7 +250,7 @@ section {
     color: #000000;
     font-size: 12px;
     font-weight: 400;
-    margin: 10px 0;
+    margin: 4px 0;
 }
 
 .tab-contents ul li span {
@@ -325,7 +325,7 @@ section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 40px;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .work {
@@ -336,6 +336,7 @@ section {
 
 .work img {
     width: 100%;
+    height:340px;
     border-radius: 10px;
     display: block;
     transition: transform 0.5s;
@@ -398,7 +399,7 @@ section {
 
 .btn1 {
     display: block;
-    margin: 50px auto;
+    margin:24px auto;
     width: fit-content;
     background-color: #ff0000;
     border: 1px solid #ff004f;
