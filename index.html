@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- External Style -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <!-- Header Part -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, I'm</h3>
+            <h1>Sanjay Kumar</h1>
+            <p>
+                I'm a Front-End developer who loves to create beautiful and functional websites
+                for people who want to make a different in the world.
+            </p>
+
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+            </div>
+            <a href="#" download class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="./Assets/Images/Photo.jpg" alt="">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-img">
+                    <img src="./Assets/Images/Photo.jpg" alt="">
+                </div>
+                <div class="about-me">
+                    <h1 class="sub-tittle">About Me</h1>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nihil cum dolore nobis odio,
+                        expedita qui ea vitae quae, asperiores suscipit consequatur impedit? Dignissimos, neque
+                        repudiandae non magnam ea accusantium sed, maxime debitis quae nesciunt est? Eos sequi in error?
+                    </p>
+
+                    <div class="tab-tittles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Desinging a Web/Android interfaces</li>
+                            <li><span>Web Development</span><br>Building a user friendly websites</li>
+                            <li><span>App Development</span><br>Building Android/iOS Application</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>UI/UX</span><br>Intermediate</li>
+                            <li><span>Web Development</span><br>Intermediate</li>
+                            <li><span>App Development</span><br>Intermediate</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Under Graduate</span>
+                                <br>2022- 2025
+                                <br>M.M (Deemed to be University)
+                                <br>Pursuing BCA 2<sup>nd</sup> Year
+                            </li>
+                            <li><span>Intermediate of Science (10 + 2)</span>
+                                <br>2019- 2021
+                                <br>S.A.E degree college, Jamui, Bihar
+                                <br>Percentage : 62.4%
+                            </li>
+                            <li><span>Matriculation</span>
+                                <br>2017- 2019
+                                <br>+2 High School Jamui, Bihar
+                                <br>Percentage : 67.8%
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h1 class="sub-tittle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class='bx bx-code-alt'></i>
+                    <h2>Web Development</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda aperiam ut possimus aliquam
+                        laudantium nisi vero libero incidunt atque corrupti.</p>
+                    <a href="#">Learn more..</a>
+                </div>
+                <div>
+                    <i class='bx bx-crop'></i>
+                    <h2>UI/UX Desinging</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda aperiam ut possimus aliquam
+                        laudantium nisi vero libero incidunt atque corrupti.</p>
+                    <a href="#">Learn more..</a>
+                </div>
+                <div>
+                    <i class='bx bxl-android'></i>
+                    <h2>App Development</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda aperiam ut possimus aliquam
+                        laudantium nisi vero libero incidunt atque corrupti.</p>
+                    <a href="#">Learn more..</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------- Portfolio Section ------->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h1 class="sub-tittle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./Assets/Images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores expedita eius sunt rerum
+                            nihil iusto asperiores! Ducimus dolores eaque illo.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./Assets/Images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores expedita eius sunt rerum
+                            nihil iusto asperiores! Ducimus dolores eaque illo.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./Assets/Images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Online Shoping App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores expedita eius sunt rerum
+                            nihil iusto asperiores! Ducimus dolores eaque illo.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn1">See more</a>
+        </div>
+    </section>
+
+    <!-- -----Contact Section----- -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-tittle">Contact Me</h1>
+                    <p><i class='bx bxs-envelope'></i>contact@example.com</p>
+                    <p><i class='bx bxs-phone-call'></i></i>0981234567</p>
+                    <div class="social-icons">
+                        <a href="#"><i class='bx bxl-linkedin'></i></a>
+                        <a href="#"><i class='bx bxl-github'></i></a>
+                        <a href="#"><i class='bx bxl-twitter'></i></a>
+                        <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+                    </div>
+                    <a href="#" download class="btn1 btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="#">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+    <!-- Scripting -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
